@@ -1,0 +1,232 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+I:\ECE 353\Final Project\Final Project\project-src\ece353_base_project.uvproj
+Project File Date:  05/08/2014
+
+<h2>Output:</h2>
+Build target 'base_project'
+compiling SPI.c...
+SPI.c(9): warning:  #177-D: variable "delay" was declared but never referenced
+SPI.c(71): error:  #167: argument of type "uint8_t *" is incompatible with parameter of type "uint8_t"
+Target not created
+Build target 'base_project'
+compiling SPI.c...
+SPI.c(9): warning:  #177-D: variable "delay" was declared but never referenced
+linking...
+Program Size: Code=10588 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(541): warning:  #223-D: function "uartTx" declared implicitly
+main.c(546): warning:  #223-D: function "uartRx" declared implicitly
+main.c(565): warning:  #223-D: function "uartTx" declared implicitly
+main.c(595): warning:  #223-D: function "uartRx" declared implicitly
+main.c(596): warning:  #223-D: function "spiTx" declared implicitly
+main.c(600): warning:  #223-D: function "uartRx" declared implicitly
+main.c(647): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(648): warning:  #223-D: function "spiTx" declared implicitly
+main.c(649): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(655): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(656): warning:  #223-D: function "spiTx" declared implicitly
+main.c(657): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(671): warning:  #223-D: function "uartTx" declared implicitly
+main.c(720): warning:  #223-D: function "uartTx" declared implicitly
+main.c(686): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(687): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(688): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(689): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10588 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 21 Warning(s).
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(541): warning:  #223-D: function "uartTx" declared implicitly
+main.c(546): warning:  #223-D: function "uartRx" declared implicitly
+main.c(565): warning:  #223-D: function "uartTx" declared implicitly
+main.c(590): warning:  #223-D: function "spiTx" declared implicitly
+main.c(595): warning:  #223-D: function "uartRx" declared implicitly
+main.c(599): warning:  #223-D: function "uartRx" declared implicitly
+main.c(646): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(648): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(654): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(656): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(670): warning:  #223-D: function "uartTx" declared implicitly
+main.c(719): warning:  #223-D: function "uartTx" declared implicitly
+main.c(685): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(686): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(687): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(688): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10588 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 19 Warning(s).
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(541): warning:  #223-D: function "uartTx" declared implicitly
+main.c(546): warning:  #223-D: function "uartRx" declared implicitly
+main.c(565): warning:  #223-D: function "uartTx" declared implicitly
+main.c(590): warning:  #223-D: function "spiTx" declared implicitly
+main.c(595): warning:  #223-D: function "uartRx" declared implicitly
+main.c(599): warning:  #223-D: function "uartRx" declared implicitly
+main.c(646): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(648): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(654): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(656): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(670): warning:  #223-D: function "uartTx" declared implicitly
+main.c(719): warning:  #223-D: function "uartTx" declared implicitly
+main.c(685): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(686): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(687): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(688): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10588 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 19 Warning(s).
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(541): warning:  #223-D: function "uartTx" declared implicitly
+main.c(546): warning:  #223-D: function "uartRx" declared implicitly
+main.c(565): warning:  #223-D: function "uartTx" declared implicitly
+main.c(593): warning:  #223-D: function "uartRx" declared implicitly
+main.c(597): warning:  #223-D: function "uartRx" declared implicitly
+main.c(644): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(645): warning:  #223-D: function "spiTx" declared implicitly
+main.c(646): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(652): warning:  #223-D: function "spi_eeprom_write_enable" declared implicitly
+main.c(653): warning:  #223-D: function "spiTx" declared implicitly
+main.c(654): warning:  #223-D: function "spi_eeprom_write_disable" declared implicitly
+main.c(668): warning:  #223-D: function "spiTx" declared implicitly
+main.c(669): warning:  #223-D: function "uartTx" declared implicitly
+main.c(718): warning:  #223-D: function "uartTx" declared implicitly
+main.c(684): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(685): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(686): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(687): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10576 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 21 Warning(s).
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(541): warning:  #223-D: function "uartTx" declared implicitly
+main.c(546): warning:  #223-D: function "uartRx" declared implicitly
+main.c(565): warning:  #223-D: function "uartTx" declared implicitly
+main.c(593): warning:  #223-D: function "uartRx" declared implicitly
+main.c(597): warning:  #223-D: function "uartRx" declared implicitly
+main.c(671): warning:  #223-D: function "uartTx" declared implicitly
+main.c(584): warning:  #177-D: variable "Saved" was declared but never referenced
+main.c(585): warning:  #177-D: variable "dummy" was declared but never referenced
+main.c(720): warning:  #223-D: function "uartTx" declared implicitly
+main.c(686): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(687): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(688): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(689): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10492 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 16 Warning(s).
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(447): error:  #20: identifier "slave_catPosition" is undefined
+main.c(489): warning:  #223-D: function "uartTx" declared implicitly
+main.c(494): warning:  #223-D: function "uartRx" declared implicitly
+main.c(513): warning:  #223-D: function "uartTx" declared implicitly
+main.c(541): warning:  #223-D: function "uartRx" declared implicitly
+main.c(545): warning:  #223-D: function "uartRx" declared implicitly
+main.c(619): warning:  #223-D: function "uartTx" declared implicitly
+main.c(532): warning:  #177-D: variable "Saved" was declared but never referenced
+main.c(533): warning:  #177-D: variable "dummy" was declared but never referenced
+main.c(668): warning:  #223-D: function "uartTx" declared implicitly
+main.c(634): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(635): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(636): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(637): warning:  #177-D: variable "masterDevice" was declared but never referenced
+Target not created
+Build target 'base_project'
+compiling main.c...
+main.c(89): warning:  #223-D: function "uartTx" declared implicitly
+main.c(92): warning:  #223-D: function "uartRx" declared implicitly
+main.c(135): warning:  #260-D: explicit type is missing ("int" assumed)
+main.c(479): warning:  #223-D: function "uartTx" declared implicitly
+main.c(484): warning:  #223-D: function "uartRx" declared implicitly
+main.c(503): warning:  #223-D: function "uartTx" declared implicitly
+main.c(531): warning:  #223-D: function "uartRx" declared implicitly
+main.c(535): warning:  #223-D: function "uartRx" declared implicitly
+main.c(609): warning:  #223-D: function "uartTx" declared implicitly
+main.c(522): warning:  #177-D: variable "Saved" was declared but never referenced
+main.c(523): warning:  #177-D: variable "dummy" was declared but never referenced
+main.c(658): warning:  #223-D: function "uartTx" declared implicitly
+main.c(624): warning:  #177-D: variable "adcVal" was declared but never referenced
+main.c(625): warning:  #177-D: variable "ADCX" was declared but never referenced
+main.c(626): warning:  #177-D: variable "Channel" was declared but never referenced
+main.c(627): warning:  #177-D: variable "masterDevice" was declared but never referenced
+linking...
+Program Size: Code=10268 RO-data=32 RW-data=524 ZI-data=8292  
+"ece353_base_project.axf" - 0 Error(s), 16 Warning(s).
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "I:\\ECE 353\\Final Project\\Final Project\\project-src\\ece353_base_project.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.

@@ -1,0 +1,4 @@
+--cpu Cortex-M4 "startup.o" "main.o" "adc.o" "gpio.o" "initboard.o" "systick.o" "uart.o" "led_chars.o" "spi.o" "I:\ECE 353\Final Project\Final Project\project-src\lib\pll.lib" "I:\ECE 353\Final Project\Final Project\project-src\lib\circular_buffer.lib" --library_type=microlib --strict --scatter ".\ece353.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ece353_base_project.map" -o ece353_base_project.axf

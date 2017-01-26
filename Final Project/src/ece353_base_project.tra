@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'ece353_base_project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"initboard.o"'
+### List of Objects: adding '"systick.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"led_chars.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '".\lib\pll.lib"'
+### List of Objects: adding '".\lib\circular_buffer.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 "startup.o" "main.o" "adc.o" "gpio.o" "initboard.o" "systick.o" "uart.o" "led_chars.o" "spi.o" "I:\ECE 353\Final Project\Final Project\project-src\lib\pll.lib" "I:\ECE 353\Final Project\Final Project\project-src\lib\circular_buffer.lib" --library_type=microlib --strict --scatter ".\ece353.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ece353_base_project.map" -o ece353_base_project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ece353_base_project.axf'
+### ADS-LD Command File: 'ece353_base_project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ece353_base_project.lnp', Handle=0x000005F4
+### Writing '.lnp' file
+### ADS-LD Command file 'ece353_base_project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

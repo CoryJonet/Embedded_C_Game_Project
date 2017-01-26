@@ -1,0 +1,17 @@
+main.o: main.c
+main.o: Q:\uVision4.5\ARM\RV31\Inc\stdint.h
+main.o: Q:\uVision4.5\ARM\RV31\Inc\stdio.h
+main.o: Q:\uVision4.5\ARM\RV31\Inc\stdlib.h
+main.o: lm4f120h5qr.h
+main.o: gpio.h
+main.o: Q:\uVision4.5\ARM\RV31\Inc\stdbool.h
+main.o: UART.h
+main.o: Q:\uVision4.5\ARM\RV31\Inc\errno.h
+main.o: circular_buffer.h
+main.o: board_config.h
+main.o: inc/hw_types.h
+main.o: initBoard.h
+main.o: systick.h
+main.o: ADC.h
+main.o: led_chars.h
+main.o: team.h

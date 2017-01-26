@@ -1,0 +1,1 @@
+-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I Q:\uVision4.5\ARM\RV31\Inc -I Q:\uVision4.5\ARM\CMSIS\Include -I Q:\uVision4.5\ARM\Inc\Luminary -o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"

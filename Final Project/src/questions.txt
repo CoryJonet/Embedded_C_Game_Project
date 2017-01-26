@@ -1,0 +1,26 @@
+TO DO:
+
+	UART2/UART5 communication
+		- pass (catPosition, catSpeed, catVelocity, score)
+		X kitty movement
+		- random item gen(clouds)
+		- updateGameBoard
+		- updateDisplay
+		- cannonRateVelocity?
+	SPI interface
+	PWM
+	
+MAYBE TO DO:
+	
+	reimplement the balloon Bombs	
+	cat 
+
+
+EEPROM_WRITE(ADDR, BYTE)
+{
+	SPI_Tx(0x06, 1); //WREN
+
+	SPI_Tx(myValue, 4); //WRITE
+
+	SPI_Tx(Ox07, 1); //WDIS
+}
